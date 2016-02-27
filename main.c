@@ -50,7 +50,7 @@ int main(int argc, char **argv)
 	return EXIT_SUCCESS;
 }
 
-/* converts a string to uppercase */
+/* convert string to uppercase */
 static char *str_upper(char *str)
 {
 	char *p;
@@ -59,7 +59,7 @@ static char *str_upper(char *str)
 	return str;
 }
 
-/* displays the usage description */
+/* display usage description */
 static void disp_usage(const char *const str)
 {
 	printf("usage: %s word1 word2\n", str);
