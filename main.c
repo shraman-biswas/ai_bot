@@ -6,7 +6,7 @@ int main(int argc, char **argv)
 	int cnt=0;
 	FILE *fp;
 
-	printf("[ basic ai ]\n");
+	printf("[ ai bot ]\n");
 
 	/* setup memory - open memory file */
 	fp = fopen("mem.txt", "a+");
@@ -18,7 +18,7 @@ int main(int argc, char **argv)
 		u1 = str_upper(argv[1]);
 		u2 = str_upper(argv[2]);
 	} else {
-		printf("no input provided!\n");
+		fprintf(stderr, "no input provided!\n");
 		disp_usage(argv[0]);
 		return EXIT_FAILURE;
 	}
