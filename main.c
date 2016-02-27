@@ -4,14 +4,16 @@ int main(int argc, char **argv)
 {
 	char line[LEN], *u1=NULL, *u2=NULL, *m1=NULL, *m2=NULL;
 	int cnt=0;
-	FILE *fp;
+	FILE *fp=NULL;
 
 	printf("[ ai bot ]\n");
 
 	/* setup memory - open memory file */
 	fp = fopen("mem.txt", "a+");
-	if (fp == NULL)
+	if (fp == NULL) {
+		perror("error creating memory file (mem.txt)!");
 		return EXIT_FAILURE;
+	}
 
 	/* teaching process */
 	if (argc > 2) {
