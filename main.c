@@ -1,7 +1,3 @@
-/*
- * Link: https://www.quora.com/What-is-the-language-used-to-make-artificial-intelligence-programs
-*/
-
 #include "main.h"
 
 int main(int argc, char **argv)
