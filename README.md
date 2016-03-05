@@ -6,9 +6,10 @@ Learnt word pairs are stored in a memory file and redundant entries are automati
 Memory grows with time and usage. Answers get more detailed as well.  
 Inspired by the quora post: https://www.quora.com/What-is-the-language-used-to-make-artificial-intelligence-programs
 
-usage: ./main word1 word2  
+Usage: ./main word1 word2  
 &nbsp;&nbsp;
 word1: noun  
 &nbsp;&nbsp;
-word2: verb/noun  
-example: ./main cat animal
+word2: verb/noun
+
+Example: ./main cat animal
